@@ -12,7 +12,7 @@ body > div.top-bar > div > ul
 .logo
   //max-width: 200px
   max-height: 70px
-.first, .second
+.first, .second, .third
   h1
     line-height: 1
     text-transform: uppercase
@@ -32,3 +32,16 @@ p
   font-family: $allerbold
 .second
   background-color: white
+.third
+  background-color: $light-gray
+  ul li
+    color: #3c3c3c
+    list-style: none
+    line-height: 2
+  ul li::before
+    color: $orange
+    content: "\2022"
+    font-size: 1em
+    padding-right: 1.1225em
+    position: relative
+    top: 0em

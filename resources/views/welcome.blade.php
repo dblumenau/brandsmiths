@@ -86,30 +86,53 @@
                     and is led by Adam Levin, who has been in the business for 17 years working at top agencies creating
                     work for many well loved brands.
                 </p>
+                <div class="phantom-small"></div>
             </div>
         </div>
 
         <div class="third">
             <div class="row">
-
+                <div class="phantom"></div>
+                <div class="small-6 columns text-right">
+                    <h1 class="grey">What can</h1>
+                </div>
+                <div class="small-6 columns">
+                    <h1 class="orange">we deliver?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="columns small-8 small-offset-1">
+                    <div class="phantom-small"></div>
+                    <ul>
+                        <li>Promotional strategy</li>
+                        <li>Concept creation</li>
+                        <li>Advertising campaigns - across both traditional and digital platforms</li>
+                        <li>Branding & logo development</li>
+                        <li>Brochure and report design</li>
+                        <li>Packaging design</li>
+                        <li>Content creation for blogs and social media</li>
+                        <li>User interface design for web and mobile</li>
+                        <li>Newsletters and mailers</li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
 
-
-        {{--<div>--}}
-        {{--<div class="text-right">compelling</div>--}}
-        {{--<div class="orange text-left">copy</div>--}}
-        {{--</div>--}}
-        {{--<div>--}}
-        {{--<div class="text-right">eye catching</div>--}}
-        {{--<div class="orange text-left">design</div>--}}
-        {{--</div>--}}
-        {{--<div>--}}
-        {{--<div class="text-right">obsessive</div>--}}
-        {{--<div class="orange text-left">service</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
+    {{--<div>--}}
+    {{--<div class="text-right">compelling</div>--}}
+    {{--<div class="orange text-left">copy</div>--}}
+    {{--</div>--}}
+    {{--<div>--}}
+    {{--<div class="text-right">eye catching</div>--}}
+    {{--<div class="orange text-left">design</div>--}}
+    {{--</div>--}}
+    {{--<div>--}}
+    {{--<div class="text-right">obsessive</div>--}}
+    {{--<div class="orange text-left">service</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
     </div>
     <script src="/js/app.js"></script>
     <script> $(document).foundation();</script>
