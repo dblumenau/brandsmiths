@@ -3,7 +3,22 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
-@import "variables";
+//@import "variables";
+@import "settings";
 
+//@import "style";
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "../../../node_modules/foundation-sites/scss/foundation";
+@include foundation-everything(false);
+@include foundation-xy-grid-classes(
+        $base-grid: false,
+        $margin-grid: false,
+        $padding-grid: false,
+        $block-grid: false,
+        $collapse: false,
+        $offset: false,
+        $vertical-grid: false
+);
+@import "custom";

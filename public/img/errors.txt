@@ -1,0 +1,2 @@
+[10/26/2017, 7:11:56 PM] layer "+27 106 011 730 +27 83 470 7371 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[10/26/2017, 7:11:56 PM] layer "adam@brandsmiths.co.za paula@brandsmiths.co.za": Unsupported extension: za
