@@ -12,16 +12,21 @@ body > div.top-bar > div > ul
 .logo
   //max-width: 200px
   max-height: 70px
-.first, .second, .third
+.title-bar
+  background: $orange
+#responsive-menu > div > ul > li
+  padding: 0
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh
   h1
     line-height: 1
     text-transform: uppercase
 .orange
   color: $orange
-  font-size: 4rem
+  font-size: 4.2rem
 .grey
   color: $dark-gray
   font-size: 4rem
+  font-family: geomanistlight
 body > div.first > div.row.text-center > a > img
   padding-bottom: 50px
 .phantom
@@ -29,7 +34,9 @@ body > div.first > div.row.text-center > a > img
 .phantom-small
   padding: 25px
 p
-  font-family: $allerbold
+  font-family: $allerlight
+ul
+  list-style-position: outside
 .second
   background-color: white
 .third
@@ -38,6 +45,7 @@ p
     color: #3c3c3c
     list-style: none
     line-height: 2
+    font-family: $allerlight
   ul li::before
     color: $orange
     content: "\2022"
@@ -45,3 +53,107 @@ p
     padding-right: 1.1225em
     position: relative
     top: 0em
+body > div.second > div.fourth > div.row.portfolio
+  margin: 0
+  width: 100%
+  max-width: 100%
+  img
+    float: left !important
+    width: 25%
+    border: solid white 1px
+body > div.second > div.fourth > div.row.text-center > div.arrow-text
+  font-family: $allerlight
+  color: $orange
+  text-transform: uppercase
+.fifth
+  img
+    float: left !important
+    width: 50%
+    border: solid white 1px
+    padding: 0
+  .bio
+    float: left !important
+    width: 50%
+    background-color: white
+    border: solid #eaeaea 1px
+    padding: 10px
+    span.title, span.name
+      text-transform: uppercase
+      display: block
+      padding: 5px 0px
+    span.title
+      color: $orange
+    span.name
+      color: $light-gray
+      text-transform: uppercase
+      display: block
+    p
+      font-size: 0.8rem
+      font-family: $allerlight
+.sixth
+  background-color: white
+.brand-logo
+  padding: 15px 30px
+  max-width: 220px
+  margin: 0px 40px
+.logos-row
+  width: 100%
+  text-align: center
+body > div.seventh > div > iframe
+  width: 100%
+  height: 500px
+body > div.eighth > div > div > span.heading
+  text-transform: uppercase
+  font-family: $allerbold
+  display: block
+  padding-bottom: 10px
+.contact-footer
+  padding: 50px
+  color: #5d6872
+  span.heading
+    font-size: 0.9rem
+    font-family: $allerlight
+  span.body
+    font-family: $allerbold
+    color: $orange !important
+.ninth
+  background-color: white
+  font-family: $allerlight
+  padding: 50px
+body > div.eighth > div.row.small-expanded.text-center
+  color: #3c3c3c !important
+@media screen and (max-width: 911px)
+  .orange
+    font-size: 2.3rem
+  .grey
+    font-size: 2.3rem
+  .phantom
+    padding: 25px
+  .phantom-small
+    padding: 12px
+  .brand-logo
+    padding: 7px
+    max-width: 220px
+    margin: 0px 20px
+body > div.seventh > form > div.row.expanded > div
+  text-align: center
+@media screen and (max-width: 640px)
+  .orange
+    font-size: 1.5rem
+  .grey
+    font-size: 1.5rem
+  span.heading
+    font-size: 0.6rem
+    padding-bottom: 5px !important
+  span.body
+    font-size: 0.8rem
+    padding-bottom: 5px
+  .contact-footer
+    padding: 15px
+@media screen and (max-width: 321px)
+  .orange
+    font-size: 1rem
+  .grey
+    font-size: 1rem
+  p
+    font-size: 0.5rem

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Brandsmiths Control Centre',
+    'title' => 'Brandsmiths Website Configurator',
 
     'title_prefix' => '',
 
@@ -32,7 +32,7 @@ return [
 
     'logo' => '<b>Brand</b>smiths',
 
-    'logo_mini' => '<b>B</b>CC',
+    'logo_mini' => '<b>B</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'skin' => 'black-light',
+    'skin' => 'black',
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
     |
     */
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin',
 
     'logout_url' => 'logout',
 
@@ -110,16 +110,14 @@ return [
     'menu' => [
         'MAIN NAVIGATION',
         [
-            'text' => 'Blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'text' => 'Admin',
+            'url'  => 'admin/',
+            'can'  => 'admin',
         ],
         [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'text'        => 'Portfolio',
+            'url'         => 'admin/portfolio',
+            'icon'        => 'graduation-cap',
         ],
         'ACCOUNT SETTINGS',
         [
