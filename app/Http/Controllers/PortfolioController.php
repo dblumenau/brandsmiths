@@ -58,4 +58,11 @@ class PortfolioController extends Controller
 		
 		return $path;
 	}
+	
+	public function showFrame(Request $request)
+	{
+		$html = '';
+		$html .= ' <div class="col-xs-4"><a href="http://placekitten.com/1000/700" data-caption="Lorem ipsum 1000/700" target="_blank" class="thumbnail"><img src="http://placekitten.com/1000/700" alt=""></a></div>';
+		return $html;
+	}
 }

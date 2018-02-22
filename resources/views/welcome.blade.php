@@ -1,47 +1,16 @@
-<!doctype html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Brandsmiths</title>
-    <link type="text/css" rel="stylesheet" href="{{asset('css/app.css')}}">
-    </head>
-    <body>
-    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-        <div class="title-bar-title">Menu</div>
-        <img src="{{asset('img/logo.png')}}" class="logo" alt="">
-    </div>
-    <div class="top-bar" id="responsive-menu">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text"><img src="{{asset('img/logo.png')}}" class="logo hide-for-small-only" alt=""></li>
-            </ul>
-        </div>
-        <div class="top-bar-right">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text"><a href="#who-we-are">Who We Are</a></li>
-                <li class="menu-text"><a href="#what-can-we-deliver">What Can We Deliver</a></li>
-                <li class="menu-text"><a href="#our-work">Our Work</a></li>
-                <li class="menu-text"><a href="#meet-the-team">Meet The Team</a></li>
-                <li class="menu-text"><a href="#our-clients">Our Clients</a></li>
-                <li class="menu-text"><a href="#get-in-touch">Get In Touch</a></li>
-            </ul>
-        </div>
-    </div>
+@extends('layout')
+@section('content')
     <div class="first">
-        <div class='container'>
-            <div class='single-item'>
-                <div><h3>1</h3></div>
-                <div><h3>2</h3></div>
-                <div><h3>3</h3></div>
-                <div><h3>4</h3></div>
-                <div><h3>5</h3></div>
-                <div><h3>6</h3></div>
-            </div>
-        </div>
+        {{--<div class='container'>--}}
+        {{--<div class='single-item'>--}}
+        {{--<div><h3>1</h3></div>--}}
+        {{--<div><h3>2</h3></div>--}}
+        {{--<div><h3>3</h3></div>--}}
+        {{--<div><h3>4</h3></div>--}}
+        {{--<div><h3>5</h3></div>--}}
+        {{--<div><h3>6</h3></div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
         <div class="row">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
@@ -75,7 +44,6 @@
                 <h1 class="orange">service</h1>
             </div>
         </div>
-
         <div class="phantom"></div>
         <div class="row text-center">
             <div class="columns small-offset-12 "></div>
@@ -89,7 +57,7 @@
                 <h1 id="who-we-are" class="grey">who</h1>
             </div>
             <div class="small-6 columns">
-                <h1  data-scroll-reveal="enter left move 150px, after 0.9s" id="orange" class="orange">we are</h1>
+                <h1 data-scroll-reveal="enter left move 150px, after 0.9s" id="orange" class="orange">we are</h1>
             </div>
         </div>
         <div class="row">
@@ -103,12 +71,10 @@
                 <p class=" text-center">
                     Our team is comprised of a talented mix of designers, art directors, copywriters and client service,
                     and is led by Adam Levin, who has been in the business for 17 years working at top agencies creating
-                    work for many well loved brands.
-                </p>
+                    work for many well loved brands. </p>
                 <div class="phantom-small"></div>
             </div>
         </div>
-
         <div class="third">
             <div class="row">
                 <div class="phantom"></div>
@@ -148,23 +114,22 @@
                 </div>
             </div>
             <div class="phantom-small"></div>
-
-            <div class="row portfolio">
-                {{--<div class="nothing"  data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>--}}
+            <div class="row collapse portfolio">
                 @foreach($portfolios as $portfolio)
-                    <img src="{{asset("$portfolio->path")}}" class="" alt="">
-
+                    <div class="columns small-3">
+                        <a href="modal/{{$portfolio->id}}" data-featherlight="ajax"><img class="portfolio-thumbnail" src="{{asset("$portfolio->thumbnail")}}" class="" alt="" id="portfolio_item_{{$portfolio->id}}"></a>
+                    </div>
                 @endforeach
-                {{--</div>--}}
             </div>
-            <div class="phantom-small"></div>
-            <div class="row text-center">
-                <div class="columns small-offset-12 "></div>
-                <div class="arrow-text">expand</div>
-                <a href="#"><img class="small-centered" src="{{asset('img/arrowdown.png')}}" alt=""></a>
-            </div>
-            <div class="phantom"></div>
         </div>
+        <div class="phantom-small"></div>
+        <div class="row text-center">
+            <div class="columns small-offset-12 "></div>
+            <div class="arrow-text">expand</div>
+            <a href="#"><img class="small-centered" src="{{asset('img/arrowdown.png')}}" alt=""></a>
+        </div>
+        <div class="phantom"></div>
+    </div>
     </div>
     <div class="fifth">
         <div class="phantom"></div>
@@ -175,60 +140,62 @@
             <h1 class="orange">the team</h1>
         </div>
         <div class="row">
-            <div class="columns small-centered small-12 medium-10 large-6 small-offset-2">
+            <div class="columns small-centered small-12 medium-10 large-10 small-offset-2">
                 <div class="phantom-small"></div>
                 <p class="text-center">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
                     claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
-                </p>
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. </p>
                 <div class="phantom-small"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="columns small-centered small-12 medium-10 large-6 small-offset-2">
-                <img src="{{asset('img/pf1.jpg')}}" class="columns small-1" alt="">
-                <img src="{{asset('img/pf2.jpg')}}" class="columns small-1" alt="">
+        <div class="expanded row">
+            <div class="row">
+                <div class="small-12 large-3 medium-6 columns">
+                    <img class="th" src="{{asset('profile-images/AdamLevin.jpg')}}" alt="">
+                    <div class="bio">
+                        <span class="title">Creative Director</span><span class="name">Adam Levin</span>
+                        <p>With 17 years in the advertising business, Adam's work has included creative direction on
+                            some of the SA’s most loved brands as well as experience on the marketing side of
+                            business. </p>
+                    </div>
+                </div>
+                <div class="small-12 large-3 medium-6 columns">
+                    <img src="{{asset('profile-images/PaulaLevin.jpg')}}" alt="">
+                    <div class="bio"><span class="title">Copyriter</span><span class="name">Paula Levin</span>
+                        <p>First a thinker, then a writer, Paula has a background in Journalism, magazine editing
+                            and
+                            has authored 2 books. She has landed a cushy job working as a copywriter for her husband
+                            Adam, and no longer needs permission slips to dash to gym, coffee and school lifts. </p>
+                    </div>
+                </div>
+                <div class="small-12 large-3 medium-6 columns">
+                    <img src="{{asset('profile-images/DarrelBeukes.jpg')}}" alt="">
+                    <div class="bio"><span class="title">Designer</span><span class="name">Darrel Beukes</span>
+                        <p>Darrel was born and raised in Windhoek, Namibia and became interested in design while
+                            still
+                            in high-school. A total perfectionist with a keen eye for detail, Darrel creates
+                            Photoshop
+                            wizardry while pumping Metallica. Back home in Pretoria, he can be found applying that
+                            same
+                            focus to conquering the video game universes of Batman or Assasin’s Creed or dabbling
+                            with
+                            Autodesk Maya. </p>
+                    </div>
+                </div>
+                <div class="small-12 large-3 medium-6 columns">
+                    <img src="{{asset('profile-images/MabuthoMsimanga.jpg')}}" alt="">
+                    <div class="bio"><span class="title">Designer</span><span class="name">Mabutho Msimanga</span>
+                        <p>A creative maverick and self-taught graphic designer, Mabutho started out his career as a
+                            mime artist. Ambitious and hard-working, he enjoys experimenting with animation. Mabutho
+                            is
+                            a devoted family man and also happens to have impeccable dress sense. </p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="columns small-centered small-12 medium-10 large-6 small-offset-2">
-                <div class="bio"><span class="title">Creative Director</span><span class="name">Adam Levin</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur cumque
-                        cupiditate, earum exercitationem facere incidunt laboriosam mollitia placeat possimus quasi
-                        qui unde veniam veritatis voluptas! Dolorum odio odit quo.
-                    </p>
-                </div>
-                <div class="bio"><span class="title">Creative Director</span><span class="name">Adam Levin</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur cumque
-                        cupiditate, earum exercitationem facere incidunt laboriosam mollitia placeat possimus quasi
-                        qui unde veniam veritatis voluptas! Dolorum odio odit quo.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="columns small-centered small-12 medium-10 large-6 small-offset-2">
-                <img src="{{asset('img/pf3.jpg')}}" class="columns small-1" alt="">
-                <img src="{{asset('img/pf4.jpg')}}" class="columns small-1" alt="">
-            </div>
-        </div>
-        <div class="row">
-            <div class="columns small-centered small-12 medium-10 large-6 small-offset-2">
-                <div class="bio"><span class="title">Creative Director</span><span class="name">Adam Levin</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur cumque
-                        cupiditate, earum exercitationem facere incidunt laboriosam mollitia placeat possimus quasi
-                        qui unde veniam veritatis voluptas! Dolorum odio odit quo.
-                    </p>
-                </div>
-                <div class="bio"><span class="title">Creative Director</span><span class="name">Adam Levin</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur cumque
-                        cupiditate, earum exercitationem facere incidunt laboriosam mollitia placeat possimus quasi
-                        qui unde veniam veritatis voluptas! Dolorum odio odit quo.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="phantom"></div>
+    </div>
+    </div>
+    <div class="phantom"></div>
     </div>
     <div class="sixth">
         <div class="row">
@@ -240,23 +207,42 @@
                 <h1 class="orange">clients</h1>
             </div>
         </div>
-        <div class="row expanded logos-row">
-            <img src="{{asset('img/logos/ufo.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/chabadhouse.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/chev.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/dot.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-        </div>
-        <div class="row  expanded logos-row">
-            <img src="{{asset('img/logos/soul.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/nedbank.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/alfin.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/sabje.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-        </div>
-        <div class="row expanded logos-row">
-            <img src="{{asset('img/logos/kingdavid.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/fielli.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/riley.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
-            <img src="{{asset('img/logos/kingdavid.jpg')}}" class="columns small-centered small-3 brand-logo" alt="">
+        <div class="row logos-row">
+            <div class="small-12 centered columns">
+                <table class="table-center">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <img src="{{asset('img/logos/nandos.png')}}" class="columns  small-4 brand-logo" alt="">
+                        </td>
+                        <td>
+                            <img src="{{asset('img/logos/balwin.png')}}" class="columns small-centered small-4 brand-logo" alt="">
+                        </td>
+                        <td>
+                            <img src="{{asset('img/logos/ufo-furniture.png')}}" class="columns  small-4 brand-logo" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="{{asset('img/logos/dot.png')}}" class="columns  small-4 brand-logo" alt=""></td>
+                        <td>
+                            <img src="{{asset('img/logos/king-david.png')}}" class="columns  small-centered small-4 brand-logo" alt="">
+                        </td>
+                        <td><img src="{{asset('img/logos/aquazania.png')}}" class="columns  small-4 brand-logo" alt="">
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="{{asset('img/logos/chabad-house.png')}}" class="columns  small-4 brand-logo" alt="">
+                        </td>
+                        <td>
+                            <img src="{{asset('img/logos/genesis-capital.png')}}" class="columns  small-centered small-4 brand-logo" alt="">
+                        </td>
+                        <td><img src="{{asset('img/logos/chev.png')}}" class="columns  small-4 brand-logo" alt=""></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <div class="phantom"></div>
@@ -271,8 +257,7 @@
                 <h1 class="orange">touch</h1>
             </div>
             <div class="phantom"></div>
-            <iframe src="//www.google.com/maps/embed/v1/place?q=132+Athol+St,+Highlands+North,+Johannesburg,+2192&zoom=16&key=AIzaSyAE-8UAOtqTOl_wRWL9tWM6z3on8YHLisc">
-            </iframe>
+            <iframe src="//www.google.com/maps/embed/v1/place?q=132+Athol+St,+Highlands+North,+Johannesburg,+2192&zoom=16&key=AIzaSyAE-8UAOtqTOl_wRWL9tWM6z3on8YHLisc"></iframe>
             <div class="phantom-small"></div>
         </div>
         <form method="POST" action="/submit-form">
@@ -319,29 +304,33 @@
             </div>
             <div class="columns  small-12 medium-4">
                 <span class="heading">Email</span>
-                <span class="body"><a class="3c3c3c" href="mailto:adam@brandsmiths.co.za">adam@brandsmiths.co.za</a><br><a
-                            href="mailto:paula@brandsmiths.co.za">paula@brandsmiths.co.za</a></span>
+                <span class="body"><a class="3c3c3c" href="mailto:adam@brandsmiths.co.za">adam@brandsmiths.co.za</a><br><a href="mailto:paula@brandsmiths.co.za">paula@brandsmiths.co.za</a></span>
             </div>
         </div>
         <div class="phantom-small"></div>
     </div>
-    <div class="ninth">
-        <div class="row text-center">
-            © <?php echo date("Y"); ?> Brandsmiths Creative Agency
-        </div>
-    </div>
-
-    <script src="/js/vendor.js"></script>
-    <script src="/js/app.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
+@endsection
+@section('custom-scripts')
     <script>
         window.sr = ScrollReveal();
-        sr.reveal('.orange', {easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)', duration: 2100, delay: 1000, distance: '1500px',  origin: 'left'} );
-        sr.reveal('.grey', { easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)', duration: 2100, distance: '1500px',  origin: 'right'});
-        $(".nothing").slick()
+        sr.reveal('.orange', {
+            easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)',
+            duration: 2100,
+            delay: 1000,
+            distance: '1500px',
+            origin: 'left'
+        });
+        sr.reveal('.grey', {
+            easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)',
+            duration: 2100,
+            distance: '1500px',
+            origin: 'right'
+        });
     </script>
+    <script>
+        $('#mylightbox').featherlight();
+    </script>
+@endsection
+@section('modals')
 
-    </body>
-</html>
+@endsection()

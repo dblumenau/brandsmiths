@@ -5,6 +5,4 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 require('./bootstrap');
-$(".single-item").slick({
-    dots: true
-});
+

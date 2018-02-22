@@ -8,7 +8,7 @@
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../../node_modules/foundation-sites/scss/foundation";
 @import "../../../node_modules/motion-ui/motion-ui";
-@import "../../../node_modules/slick-carousel/slick/slick";
+//@import "../../../node_modules/slick-carousel/slick/slick";
 @include foundation-everything(false);
 @include foundation-xy-grid-classes(
         $base-grid: false,

@@ -1,0 +1,9 @@
+@include('head')
+<body>
+@include('nav')
+@yield('content')
+@include('footer')
+@yield('modals')
+@include('scripts')
+</body>
+</html>

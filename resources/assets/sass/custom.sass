@@ -53,51 +53,71 @@ ul
     padding-right: 1.1225em
     position: relative
     top: 0em
-body > div.second > div.fourth > div.row.portfolio
-  margin: 0
-  width: 100%
-  max-width: 100%
+body > div.second > div.fourth > div.row.expanded.portfolio
+  padding-left: 60px
+  padding-right: 60px
   img
     float: left !important
-    width: 25%
+    width: 300px
     border: solid white 1px
 body > div.second > div.fourth > div.row.text-center > div.arrow-text
   font-family: $allerlight
   color: $orange
   text-transform: uppercase
+.bio
+  background-color: white
+  min-height: 310px
+  padding: 10px
+  margin-bottom: 5px
+  span.title, span.name
+    text-transform: uppercase
+    display: block
+    padding: 0px 0px
+  span.title
+    color: $orange
+  span.name
+    color: $light-gray
+    text-transform: capitalize
+    padding-top: 10px
+    display: block
+  p
+    font-size: 0.8rem
+    font-family: $allerlight
+    padding-top: 15px
 .fifth
   img
-    float: left !important
-    width: 50%
-    border: solid white 1px
-    padding: 0
-  .bio
-    float: left !important
-    width: 50%
-    background-color: white
-    border: solid #eaeaea 1px
-    padding: 10px
-    span.title, span.name
-      text-transform: uppercase
-      display: block
-      padding: 5px 0px
-    span.title
-      color: $orange
-    span.name
-      color: $light-gray
-      text-transform: uppercase
-      display: block
-    p
-      font-size: 0.8rem
-      font-family: $allerlight
+    width: 100%
+    img
+      border: solid transparent 1px
 .sixth
   background-color: white
 .brand-logo
-  padding: 15px 30px
-  max-width: 220px
-  margin: 0px 40px
+  //padding: 15px 30px
+  //min-width: 200px
+  //max-width: 200px
+  //margin: 0px 40px
+  -webkit-filter: grayscale(100%)
+  filter: grayscale(100%)
+  width: 200px
+  opacity: 0.7
+  filter: alpha(opacity=50)
+table
+  border: none
+tbody tr:nth-child(even)
+  background-color: #fefefe
+.table-center
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  .columns
+    float: none !important
+body > div.sixth > div.row.logos-row > div > table > tbody > img
+  float: none
+.portfolio-thumbnail
+  border-style: solid
+  border-width: 1px
+  border-color: white
 .logos-row
-  width: 100%
   text-align: center
 body > div.seventh > div > iframe
   width: 100%
@@ -157,3 +177,22 @@ body > div.seventh > form > div.row.expanded > div
     font-size: 1rem
   p
     font-size: 0.5rem
+@media screen and (min-width: 280px)
+  .bio
+    min-height: 0px
+@media screen and (min-width: 640px)
+  .bio
+    min-height: 350px
+@media screen and (min-width: 1440px)
+  .bio
+    min-height: 300px
+
+
+//.almost
+//  padding-left: 100px
+//  padding-right: 100px
+//
+//@media screen and (max-width: 640px)
+//  .almost
+//    padding-left: 0px
+//    padding-right: 0px

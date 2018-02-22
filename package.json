@@ -21,5 +21,9 @@
     "lodash": "^4.17.4",
     "motion-ui": "^1.2.3",
     "vue": "^2.1.10"
+  },
+  "dependencies": {
+    "scrollreveal": "^3.3.6",
+    "slick-lightbox": "^0.2.10"
   }
 }

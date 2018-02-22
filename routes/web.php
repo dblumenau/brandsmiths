@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@getHomePage');
+Route::get('modal/{id}', 'HomeController@showModal');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -19,7 +20,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
+Route::get('/ajax/get-portfolio/{id}', 'PortfolioController@showFrame');
 Route::group(['middleware' => ['adminAuth', 'auth']], function () {
 	Route::get('/admin/portfolio', 'PortfolioController@index');
 	Route::get('/admin/portfolio/create', 'PortfolioController@create');

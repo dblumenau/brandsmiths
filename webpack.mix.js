@@ -16,10 +16,15 @@ mix.sass('resources/assets/sass/admin.scss', 'public/css');
 mix.combine([
     'node_modules/jquery/dist/jquery.min.js',
     'node_modules/foundation-sites/dist/js/foundation.min.js',
-    'node_modules/dropzone/dist/dropzone.js',
+    // 'node_modules/dropzone/dist/dropzone.js',
     'node_modules/scrollreveal/dist/scrollreveal.js',
-    'node_modules/slick-lightbox/dist/slick-lightbox.js',
     'node_modules/slick-carousel/slick/slick.js',
+    'node_modules/slick-lightbox/dist/slick-lightbox.js',
 ], 'public/js/vendor.js');
 mix.js('resources/assets/js/app.js', 'public/js/app.js');
+mix.styles([
+    'node_modules/slick-carousel/slick/slick.css',
+    'node_modules/slick-carousel/slick/slick-theme.css',
+    'node_modules/slick-lightbox/dist/slick-lightbox.css'
+], 'public/css/vendor.css');
 mix.sourceMaps();
