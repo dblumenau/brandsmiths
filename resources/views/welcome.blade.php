@@ -208,41 +208,77 @@
             </div>
         </div>
         <div class="row logos-row">
-            <div class="small-12 centered columns">
-                <table class="table-center">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <img src="{{asset('img/logos/nandos.png')}}" class="columns  small-4 brand-logo" alt="">
-                        </td>
-                        <td>
-                            <img src="{{asset('img/logos/balwin.png')}}" class="columns small-centered small-4 brand-logo" alt="">
-                        </td>
-                        <td>
-                            <img src="{{asset('img/logos/ufo-furniture.png')}}" class="columns  small-4 brand-logo" alt="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img src="{{asset('img/logos/dot.png')}}" class="columns  small-4 brand-logo" alt=""></td>
-                        <td>
-                            <img src="{{asset('img/logos/king-david.png')}}" class="columns  small-centered small-4 brand-logo" alt="">
-                        </td>
-                        <td><img src="{{asset('img/logos/aquazania.png')}}" class="columns  small-4 brand-logo" alt="">
-                        </td>
-                    </tr>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="{{asset('img/logos/chabad-house.png')}}" class="columns  small-4 brand-logo" alt="">
-                        </td>
-                        <td>
-                            <img src="{{asset('img/logos/genesis-capital.png')}}" class="columns  small-centered small-4 brand-logo" alt="">
-                        </td>
-                        <td><img src="{{asset('img/logos/chev.png')}}" class="columns  small-4 brand-logo" alt=""></td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div class="small-12 columns centered">
+                <div class="row">
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/Aquazania.jpg" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                    <img src="/public/img/new-logos/BalwinProperties.jpg" alt="">
+                    </div>
+                        <div class="small-4 columns">
+                    <img src="/public/img/new-logos/ChabadHouse.jpg" alt="">
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/ChevrahKadisha.jpg" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/DOTSafetyFootwear.jpg" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/KingDavidSchools.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/Lulaway.jpg" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/Nandos.jpg" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="/public/img/new-logos/UFO.jpg" alt="">
+                    </div>
+                </div>
+               
             </div>
+            {{--<div class="small-12 centered columns">--}}
+            {{--<table class="table-center">--}}
+            {{--<tbody>--}}
+            {{--<tr>--}}
+            {{--<td>--}}
+            {{--<img src="{{asset('img/logos/nandos.png')}}" class="columns  small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--<td>--}}
+            {{--<img src="{{asset('img/logos/balwin.png')}}" class="columns small-centered small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--<td>--}}
+            {{--<img src="{{asset('img/logos/ufo-furniture.png')}}" class="columns  small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--</tr>--}}
+            {{--<tr>--}}
+            {{--<td><img src="{{asset('img/logos/dot.png')}}" class="columns  small-4 brand-logo" alt=""></td>--}}
+            {{--<td>--}}
+            {{--<img src="{{asset('img/logos/king-david.png')}}" class="columns  small-centered small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--<td><img src="{{asset('img/logos/aquazania.png')}}" class="columns  small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--</tr>--}}
+            {{--</tr>--}}
+            {{--<tr>--}}
+            {{--<td>--}}
+            {{--<img src="{{asset('img/logos/chabad-house.png')}}" class="columns  small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--<td>--}}
+            {{--<img src="{{asset('img/logos/genesis-capital.png')}}" class="columns  small-centered small-4 brand-logo" alt="">--}}
+            {{--</td>--}}
+            {{--<td><img src="{{asset('img/logos/chev.png')}}" class="columns  small-4 brand-logo" alt=""></td>--}}
+            {{--</tr>--}}
+            {{--</tbody>--}}
+            {{--</table>--}}
+            {{--</div>--}}
         </div>
     </div>
     <div class="phantom"></div>
