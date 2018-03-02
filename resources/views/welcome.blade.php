@@ -211,7 +211,7 @@
             <div class="small-12 columns centered">
                 <div class="row">
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/Aquazania.jpg" alt="">
+                        <img src="{{secure_asset('/public/img/new-logos/Aquazania.jpg'}}" alt="">
                     </div>
                     <div class="small-4 columns">
                     <img src="/public/img/new-logos/BalwinProperties.jpg" alt="">
