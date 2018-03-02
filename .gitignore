@@ -294,3 +294,4 @@ GitHub.sublime-settings
 .vagrant/
 *.psd
 *.zip
+.idea/workspace.xml
