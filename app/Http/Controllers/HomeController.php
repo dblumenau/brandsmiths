@@ -41,7 +41,7 @@ class HomeController extends Controller
 		if ($portfolio->type === 1) {
 			$html .= '<img src="' . $portfolio->path . '" alt="">';
 		} elseif ($portfolio->type === 2) {
-			$html .= '<video width="640" height="480" controls>
+			$html .= '<video controls>
   <source src="' . $portfolio->path . '" type="video/mp4">
 Your browser does not support the video tag.
 </video>';

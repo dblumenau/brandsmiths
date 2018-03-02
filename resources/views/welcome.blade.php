@@ -1,5 +1,11 @@
 @extends('layout')
 @section('content')
+    <style>
+        video {
+            width: 100% !important;
+            height: auto !important;
+        }
+    </style>
     <div class="first">
         {{--<div class='container'>--}}
         {{--<div class='single-item'>--}}
@@ -117,7 +123,7 @@
             <div class="row collapse portfolio">
                 @foreach($portfolios as $portfolio)
                     <div class="columns small-3">
-                        <a href="modal/{{$portfolio->id}}" data-featherlight="ajax"><img class="portfolio-thumbnail" src="{{asset("$portfolio->thumbnail")}}" class="" alt="" id="portfolio_item_{{$portfolio->id}}"></a>
+                        <a id="modal-link" href="modal/{{$portfolio->id}}" data-featherlight="ajax"><img class="portfolio-thumbnail" src="{{asset("$portfolio->thumbnail")}}" class="" alt="" id="portfolio_item_{{$portfolio->id}}"></a>
                     </div>
                 @endforeach
             </div>
@@ -141,10 +147,6 @@
         </div>
         <div class="row">
             <div class="columns small-centered small-12 medium-10 large-10 small-offset-2">
-                <div class="phantom-small"></div>
-                <p class="text-center">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
-                    claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. </p>
                 <div class="phantom-small"></div>
             </div>
         </div>
@@ -214,11 +216,11 @@
                         <img src="{{secure_asset('/img/new-logos/Aquazania.jpg')}}" alt="">
                     </div>
                     <div class="small-4 columns">
-                    <img src="{{secure_asset('/img/new-logos/BalwinProperties.jpg')}}" alt="">
+                        <img src="{{secure_asset('/img/new-logos/BalwinProperties.jpg')}}" alt="">
                     </div>
-                        <div class="small-4 columns">
-                    <img src="{{secure_asset('/img/new-logos/ChabadHouse.jpg')}}" alt="">
-                        </div>
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/new-logos/ChabadHouse.jpg')}}" alt="">
+                    </div>
                 </div>
                 <div class="row">
                     <div class="small-4 columns">
@@ -242,7 +244,6 @@
                         <img src="{{secure_asset('/img/new-logos/UFO.jpg')}}" alt="">
                     </div>
                 </div>
-               
             </div>
             {{--<div class="small-12 centered columns">--}}
             {{--<table class="table-center">--}}
@@ -296,26 +297,37 @@
             <iframe src="//www.google.com/maps/embed/v1/place?q=132+Athol+St,+Highlands+North,+Johannesburg,+2192&zoom=16&key=AIzaSyAE-8UAOtqTOl_wRWL9tWM6z3on8YHLisc"></iframe>
             <div class="phantom-small"></div>
         </div>
-        <form method="POST" action="/submit-form">
+        <form method="POST" action="/contact-us">
+            {{csrf_field()}}
             <div class="row">
+                <a id="acontact">
+                    @if(Session::has('success_message'))
+                        
+                        <div data-alert class="alert-box success radius">
+                            {{Session::get('success_message')}}
+                        </div>
+                    
+                    @endif
+                </a>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" placeholder="YOUR NAME">
+                        <a id="contact_us">
+                            <input type="text" name="name" placeholder="YOUR NAME"></a>
                     </label>
                 </div>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" placeholder="YOUR EMAIL">
+                        <input type="text" name="email" placeholder="YOUR EMAIL">
                     </label>
                 </div>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" placeholder="YOUR PHONE">
+                        <input type="text" name="phone" placeholder="YOUR PHONE">
                     </label>
                 </div>
                 <div class="columns small-12">
                     <label>
-                        <textarea rows="5" type="text" placeholder="YOUR MESSAGE"></textarea>
+                        <textarea rows="5" type="text" name="message" placeholder="YOUR MESSAGE"></textarea>
                     </label>
                 </div>
             </div>
@@ -365,6 +377,16 @@
     </script>
     <script>
         $('#mylightbox').featherlight();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const widthy = getWidth();
+
+        }, false);
+
+        function getWidth() {
+            return document.documentElement.clientWidth;
+        }
     </script>
 @endsection
 @section('modals')
