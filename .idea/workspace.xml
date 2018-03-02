@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="090b5bac-022d-4b4a-a4be-091248b82189" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +32,8 @@
           <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="668">
-                  <caret line="310" column="20" lean-forward="true" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+                <state relative-caret-position="437">
+                  <caret line="303" column="56" lean-forward="false" selection-start-line="303" selection-start-column="56" selection-end-line="303" selection-end-column="56" />
                   <folding>
                     <marker date="1519994652188" expanded="true" signature="9:17" ph="..." />
                     <marker date="1519994652188" expanded="true" signature="28:37" ph="..." />
@@ -479,31 +476,20 @@
             <path>
               <item name="brandsmiths" type="b2602c69:ProjectViewProjectNode" />
               <item name="brandsmiths" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brandsmiths" type="b2602c69:ProjectViewProjectNode" />
               <item name="brandsmiths" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brandsmiths" type="b2602c69:ProjectViewProjectNode" />
               <item name="brandsmiths" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="brandsmiths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandsmiths" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="brandsmiths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandsmiths" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="thumbnails" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -526,8 +512,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img/new-logos" />
       <recent name="$PROJECT_DIR$/public/img/thumbnails" />
+      <recent name="$PROJECT_DIR$/public/img/new-logos" />
       <recent name="$PROJECT_DIR$/Brandsmiths_Website-assets" />
       <recent name="$PROJECT_DIR$/public/img/portfolio-slider" />
       <recent name="$PROJECT_DIR$/public/profile-images" />
@@ -596,12 +582,12 @@
       <workItem from="1518347498269" duration="27289000" />
       <workItem from="1519141186942" duration="14963000" />
       <workItem from="1519658063314" duration="666000" />
-      <workItem from="1519742883728" duration="15576000" />
+      <workItem from="1519742883728" duration="15795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147272000" />
+    <option name="totallyTimeSpent" value="147491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
@@ -950,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="310" column="20" lean-forward="true" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
+        <state relative-caret-position="437">
+          <caret line="303" column="56" lean-forward="false" selection-start-line="303" selection-start-column="56" selection-end-line="303" selection-end-column="56" />
           <folding>
             <marker date="1519994652188" expanded="true" signature="9:17" ph="..." />
             <marker date="1519994652188" expanded="true" signature="28:37" ph="..." />
