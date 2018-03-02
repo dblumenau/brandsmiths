@@ -4,7 +4,7 @@
     <img src="{{asset('img/logo-white.png')}}" class="logo" alt="">
 </div>
 <div class="top-bar" id="responsive-menu">
-    <div class="top-bar-left">
+    <div class="top-bar-right">
         <ul class="vertical large-horizontal menu" >
             <li class="menu-text"><img src="{{asset('img/logo-white.png')}}" class="logo hide-for-small-only hide-for-medium-only" alt=""></li>
             <li class="menu-text"><a href="#who-we-are">Who We Are</a></li>
@@ -16,7 +16,7 @@
         </ul>
     </div>
     <div class="top-bar-right">
-        <ul class="vertical menu" data-dropdown-menu class="vertical menu" data-responsive-menu="drilldown medium-accordion" style="max-width: 250px;">
+        <ul class="vertical menu" data-dropdown-menu class="vertical menu align-right" data-responsive-menu="drilldown medium-accordion" style="max-width: 250px;">
         
         </ul>
     </div>

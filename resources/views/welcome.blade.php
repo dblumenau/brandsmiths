@@ -214,32 +214,32 @@
                         <img src="{{secure_asset('/img/new-logos/Aquazania.jpg')}}" alt="">
                     </div>
                     <div class="small-4 columns">
-                    <img src="/public/img/new-logos/BalwinProperties.jpg" alt="">
+                    <img src="{{secure_asset('/img/new-logos/BalwinProperties.jpg')}}" alt="">
                     </div>
                         <div class="small-4 columns">
-                    <img src="/public/img/new-logos/ChabadHouse.jpg" alt="">
+                    <img src="{{secure_asset('/img/new-logos/ChabadHouse.jpg')}}" alt="">
                         </div>
                 </div>
                 <div class="row">
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/ChevrahKadisha.jpg" alt="">
+                        <img src="{{secure_asset('/img/new-logos/ChevrahKadisha.jpg')}}" alt="">
                     </div>
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/DOTSafetyFootwear.jpg" alt="">
+                        <img src="{{secure_asset('/img/new-logos/DOTSafetyFootwear.jpg')}}" alt="">
                     </div>
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/KingDavidSchools.jpg" alt="">
+                        <img src="{{secure_asset('/img/new-logos/KingDavidSchools.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/Lulaway.jpg" alt="">
+                        <img src="{{secure_asset('/img/new-logos/Lulaway.jpg')}}" alt="">
                     </div>
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/Nandos.jpg" alt="">
+                        <img src="{{secure_asset('/img/new-logos/Nandos.jpg')}}" alt="">
                     </div>
                     <div class="small-4 columns">
-                        <img src="/public/img/new-logos/UFO.jpg" alt="">
+                        <img src="{{secure_asset('/img/new-logos/UFO.jpg')}}" alt="">
                     </div>
                 </div>
                
