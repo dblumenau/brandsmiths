@@ -297,7 +297,7 @@
             <iframe src="//www.google.com/maps/embed/v1/place?q=132+Athol+St,+Highlands+North,+Johannesburg,+2192&zoom=16&key=AIzaSyAE-8UAOtqTOl_wRWL9tWM6z3on8YHLisc"></iframe>
             <div class="phantom-small"></div>
         </div>
-        <form method="POST" action="/contact-us">
+        <form method="POST" action="/contact-us" id="contact_us_form">
             {{csrf_field()}}
             <div class="row">
                 <a id="acontact">
@@ -311,18 +311,17 @@
                 </a>
                 <div class="columns small-4">
                     <label>
-                        <a id="contact_us">
-                            <input type="text" name="name" placeholder="YOUR NAME"></a>
+                        <input type="text" name="name" placeholder="YOUR NAME" data-parsley-error-message="Please enter a name" required>
                     </label>
                 </div>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" name="email" placeholder="YOUR EMAIL">
+                        <input name="email" placeholder="YOUR EMAIL" type="email" data-parsley-type="email" data-parsley-error-message="Please enter a valid email" required>
                     </label>
                 </div>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" name="phone" placeholder="YOUR PHONE">
+                        <input type="text" name="phone" placeholder="YOUR PHONE" data-parsley-error-message="Please enter a phone number" required>
                     </label>
                 </div>
                 <div class="columns small-12">
@@ -387,6 +386,10 @@
         function getWidth() {
             return document.documentElement.clientWidth;
         }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js"></script>
+    <script>
+        $('#contact_us_form').parsley();
     </script>
 @endsection
 @section('modals')
