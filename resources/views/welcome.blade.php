@@ -163,8 +163,8 @@
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
                     <img src="{{asset('profile-images/PaulaLevin.jpg')}}" alt="">
-                    <div class="bio"><span class="title">Copyriter</span><span class="name">Paula Levin</span>
-                        <p>First a thinker, then a writer, Paula has a background in Journalism, magazine editing
+                    <div class="bio"><span class="title">Copywriter</span><span class="name">Paula Levin</span>
+                        <p>First a thinker, then a writer, Paula has a background in journalism, magazine editing
                             and
                             has authored 2 books. She has landed a cushy job working as a copywriter for her husband
                             Adam, and no longer needs permission slips to dash to gym, coffee and school lifts. </p>
