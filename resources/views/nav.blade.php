@@ -3,6 +3,11 @@
     <div class="title-bar-title"></div>
     <img src="{{asset('img/logo-white.png')}}" class="logo" alt="">
 </div>
+<style>
+    .menu.align-right > li {
+        float: left;
+    }
+</style>
 <div class="top-bar" id="responsive-menu">
     <div class="top-bar-left">
         <ul class="menu vertical large-horizontal">
@@ -21,7 +26,7 @@
             <li class="menu-text"><a href="#get-in-touch">Get In Touch</a></li>
         </ul>
     </div>
-</div>
+</div></ul>
+
 <div class="top-bar-right">
-    <ul class="vertical menu" data-dropdown-menu class="vertical menu align-right" data-responsive-menu="drilldown medium-accordion" style="max-width: 250px;"></ul>
-</div></div>
+    <ul class="vertical menu" data-dropdown-menu class="vertical
