@@ -1,16 +1,22 @@
 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
-    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-    <div class="title-bar-title"></div>
-    <img src="{{asset('img/logo-white.png')}}" class="logo" alt="">
+    <div class="title-bar-left">
+        <img src="{{asset('img/logo-white.png')}}" class="logo" alt="">
+    </div>
+    <div class="title-bar-right">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"></div>
+    </div>
 </div>
 <div class="top-bar" id="responsive-menu">
     <div class="top-bar-left">
-        <ul class="vertical large-horizontal menu" >
-            <li class="menu-text"><img src="{{asset('img/logo-white.png')}}" class="logo hide-for-small-only hide-for-medium-only" alt=""></li>
+        <ul class="vertical large-horizontal menu">
+            <li class="menu-text">
+                <img src="{{asset('img/logo-white.png')}}" class="logo hide-for-small-only hide-for-medium-only" alt="">
+            </li>
         </ul>
     </div>
     <div class="top-bar-right">
-        <ul class="vertical large-horizontal menu" data-dropdown-menu data-responsive-menu="drilldown medium-accordion">
+        <ul class="vertical medium-horizontal menu" data-dropdown-menu data-responsive-menu="drilldown medium-accordion">
             <li class="menu-text"><a href="#who-we-are">Who We Are</a></li>
             <li class="menu-text"><a href="#what-can-we-deliver">What Can We Deliver</a></li>
             <li class="menu-text"><a href="#our-work">Our Work</a></li>
