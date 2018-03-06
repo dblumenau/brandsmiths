@@ -13,7 +13,7 @@ class ContactController extends Controller
 	{
 		$contact = new Contact($request->all());
 		$contact->save();
-		Mail::to('dblumenau@gmail.com', 'adam@brandsmiths.co.za`')->send(new ContactUs($contact));
+		Mail::to('dblumenau@gmail.com', 'adam@brandsmiths.co.za')->send(new ContactUs($contact));
 		return redirect('/#acontact')->with('success_message', 'Thank you for contacting us. We will get back to you soon');
     }
 }
