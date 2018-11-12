@@ -359,7 +359,7 @@
 @endsection
 @section('custom-scripts')
     <script>
-        window.sr = ScrollReveal();
+        window.sr = ScrollReveal({ mobile: false });
         sr.reveal('.orange', {
             easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)',
             duration: 2100,
