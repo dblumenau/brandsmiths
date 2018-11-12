@@ -56,11 +56,11 @@
             <a href="#who-we-are"><img class="small-centered" src="{{asset('img/arrowdown.png')}}" alt=""></a>
         </div>
     </div>
-    <div class="second">
+    <div class="second" id="who-we-are">
         <div class="row">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1 id="who-we-are" class="grey">who</h1>
+                <h1  class="grey">who</h1>
             </div>
             <div class="small-6 columns">
                 <h1 data-scroll-reveal="enter left move 150px, after 0.9s" id="orange" class="orange">we are</h1>
@@ -81,11 +81,11 @@
                 <div class="phantom-small"></div>
             </div>
         </div>
-        <div class="third">
+        <div class="third" id="what-can-we-deliver">
             <div class="row">
                 <div class="phantom"></div>
                 <div class="small-6 columns text-right">
-                    <h1 id="what-can-we-deliver" class="grey">What can</h1>
+                    <h1  class="grey">What can</h1>
                 </div>
                 <div class="small-6 columns">
                     <h1 class="orange">we deliver?</h1>
@@ -109,11 +109,11 @@
             </div>
             <div class="phantom-small"></div>
         </div>
-        <div class="fourth">
+        <div class="fourth" id="our-work">
             <div class="row">
                 <div class="phantom"></div>
                 <div class="small-6 columns text-right">
-                    <h1 id="our-work" class="grey">Our</h1>
+                    <h1  class="grey">Our</h1>
                 </div>
                 <div class="small-6 columns">
                     <h1 class="orange">work</h1>
@@ -137,10 +137,10 @@
         <div class="phantom"></div>
     </div>
     </div>
-    <div class="fifth">
+    <div class="fifth" id="meet-the-team">
         <div class="phantom"></div>
         <div class="small-6 columns text-right">
-            <h1 id="meet-the-team" class="grey">Meet</h1>
+            <h1 class="grey">Meet</h1>
         </div>
         <div class="small-6 columns">
             <h1 class="orange">the team</h1>
@@ -199,11 +199,11 @@
     </div>
     <div class="phantom"></div>
     </div>
-    <div class="sixth">
+    <div class="sixth" id="our-clients">
         <div class="row">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1 id="our-clients" class="grey">our</h1>
+                <h1  class="grey">our</h1>
             </div>
             <div class="small-6 columns">
                 <h1 class="orange">clients</h1>
@@ -284,11 +284,11 @@
     </div>
     <div class="phantom"></div>
     </div>
-    <div class="seventh">
+    <div class="seventh" id="get-in-touch">
         <div class="row expanded">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1 id="get-in-touch" class="grey">Get in</h1>
+                <h1  class="grey">Get in</h1>
             </div>
             <div class="small-6 columns">
                 <h1 class="orange">touch</h1>
