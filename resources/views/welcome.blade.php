@@ -178,7 +178,7 @@
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
                     <img src="{{asset('profile-images/Isaac.jpg')}}" alt="">
-                    <div class="bio"><span class="title">Designer</span><span class="name">Isaac Phefo</span>
+                    <div class="bio" id="long-one"><span class="title">Designer</span><span class="name">Isaac Phefo</span>
                         <p>
                             Isaac is a strategic graphic designer with a strong conceptual ability. For Isaac, design is more than a job, it’s a philosophy and a purpose. “My work is about creating something from nothing, solving problems and making life more enjoyable for people.” Isaac has worked in the industry for eight years, including a stint at a Moscow-based agency, which involved copious amounts of vodka. Isaac describes himself as “designing life one pixel at a time, hoping one day to zoom out and see the bigger picture.” He isn't on facebook and doesn't watch TV - his recipe for keeping his mind and art original.</p>
                     </div>
@@ -380,6 +380,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.1/parsley.min.js"></script>
     <script>
         $('#contact_us_form').parsley();
+    </script>
+    <script>
     </script>
 @endsection
 @section('modals')
