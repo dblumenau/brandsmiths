@@ -171,26 +171,16 @@
                     </div>
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
-                    <img src="{{asset('profile-images/DarrelBeukes.jpg')}}" alt="">
-                    <div class="bio"><span class="title">Designer</span><span class="name">Darrel Beukes</span>
-                        <p>Darrel was born and raised in Windhoek, Namibia and became interested in design while
-                            still
-                            in high-school. A total perfectionist with a keen eye for detail, Darrel creates
-                            Photoshop
-                            wizardry while pumping Metallica. Back home in Pretoria, he can be found applying that
-                            same
-                            focus to conquering the video game universes of Batman or Assasin’s Creed or dabbling
-                            with
-                            Autodesk Maya. </p>
+                    <img src="{{asset('profile-images/tshepo.jpg')}}" alt="">
+                    <div class="bio"><span class="title">Designer</span><span class="name">Tshepo Molise</span>
+                        <p>Tshepo’s career as a designer began with a horrible advert - not his own! But one so foul that this young, ambitious creative decided to make the world a far prettier place. And that he has - both with his design, as well as his warm smile and easy-going attitude. Tshepo has a passion for typography and illustration and admits to being obsessed with video. On weekends he prefers a quiet picnic with his fiancé and family to wild parties.</p>
                     </div>
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
-                    <img src="{{asset('profile-images/MabuthoMsimanga.jpg')}}" alt="">
-                    <div class="bio"><span class="title">Designer</span><span class="name">Mabutho Msimanga</span>
-                        <p>A creative maverick and self-taught graphic designer, Mabutho started out his career as a
-                            mime artist. Ambitious and hard-working, he enjoys experimenting with animation. Mabutho
-                            is
-                            a devoted family man and also happens to have impeccable dress sense. </p>
+                    <img src="{{asset('profile-images/Isaac.jpg')}}" alt="">
+                    <div class="bio"><span class="title">Designer</span><span class="name">Isaac Phefo</span>
+                        <p>
+                            Isaac is a strategic graphic designer with a strong conceptual ability. For Isaac, design is more than a job, it’s a philosophy and a purpose. “My work is about creating something from nothing, solving problems and making life more enjoyable for people.” Isaac has worked in the industry for eight years, including a stint at a Moscow-based agency, which involved copious amounts of vodka. Isaac describes himself as “designing life one pixel at a time, hoping one day to zoom out and see the bigger picture.” He isn't on facebook and doesn't watch TV - his recipe for keeping his mind and art original.</p>
                     </div>
                 </div>
             </div>
@@ -302,11 +292,11 @@
             <div class="row">
                 <a id="acontact">
                     @if(Session::has('success_message'))
-                        
+
                         <div data-alert class="alert-box success radius">
                             {{Session::get('success_message')}}
                         </div>
-                    
+
                     @endif
                 </a>
                 <div class="columns small-4">
