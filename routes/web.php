@@ -20,6 +20,7 @@ Route::post('/contact-us', 'ContactController@save');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/terms', 'HomeController@terms')->name('terms');
 Route::get('/ajax/get-portfolio/{id}', 'PortfolioController@showFrame');
 Route::group(['middleware' => ['adminAuth', 'auth']], function () {
 	Route::get('/admin/portfolio', 'PortfolioController@index');

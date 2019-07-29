@@ -17,12 +17,13 @@
     </div>
     <div class="top-bar-right">
         <ul class="vertical medium-horizontal menu" data-dropdown-menu data-responsive-menu="drilldown medium-accordion">
-            <li class="menu-text"><a href="#who-we-are">Who We Are</a></li>
-            <li class="menu-text"><a href="#what-can-we-deliver">What Can We Deliver</a></li>
-            <li class="menu-text"><a href="#our-work">Our Work</a></li>
-            <li class="menu-text"><a href="#meet-the-team">Meet The Team</a></li>
-            <li class="menu-text"><a href="#our-clients">Our Clients</a></li>
-            <li class="menu-text"><a href="#get-in-touch">Get In Touch</a></li>
+            <li class="menu-text"><a href="/#who-we-are">Who We Are</a></li>
+            <li class="menu-text"><a href="/#what-can-we-deliver">What Can We Deliver</a></li>
+            <li class="menu-text"><a href="/#our-work">Our Work</a></li>
+            <li class="menu-text"><a href="/#meet-the-team">Meet The Team</a></li>
+            <li class="menu-text"><a href="/#our-clients">Our Clients</a></li>
+            <li class="menu-text"><a href="/#get-in-touch">Get In Touch</a></li>
+            <li class="menu-text"><a href="/terms">T's and C's</a></li>
         </ul>
     </div>
 </div>
