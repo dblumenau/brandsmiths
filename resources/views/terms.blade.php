@@ -7,7 +7,7 @@
                 <h1  class="grey">Terms and</h1>
             </div>
             <div class="small-6 columns">
-                <h1 data-scroll-reveal="enter left move 150px, after 0.9s" id="orange" class="orange">conditions</h1>
+                <h1 data-scroll-reveal="enter left move 150px, after 0.9s" id="orange" class="orange" style="margin-left: -5px">conditions</h1>
             </div>
         </div>
         <div class="row">
