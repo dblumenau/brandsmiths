@@ -60,7 +60,7 @@
         <div class="row">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1  class="grey">who</h1>
+                <h1 class="grey">who</h1>
             </div>
             <div class="small-6 columns">
                 <h1 data-scroll-reveal="enter left move 150px, after 0.9s" id="orange" class="orange">we are</h1>
@@ -85,7 +85,7 @@
             <div class="row">
                 <div class="phantom"></div>
                 <div class="small-6 columns text-right">
-                    <h1  class="grey">What can</h1>
+                    <h1 class="grey">What can</h1>
                 </div>
                 <div class="small-6 columns">
                     <h1 class="orange">we deliver?</h1>
@@ -113,7 +113,7 @@
             <div class="row">
                 <div class="phantom"></div>
                 <div class="small-6 columns text-right">
-                    <h1  class="grey">Our</h1>
+                    <h1 class="grey">Our</h1>
                 </div>
                 <div class="small-6 columns">
                     <h1 class="orange">work</h1>
@@ -173,14 +173,28 @@
                 <div class="small-12 large-3 medium-6 columns">
                     <img src="{{asset('profile-images/tshepo.jpg')}}" alt="">
                     <div class="bio"><span class="title">Designer</span><span class="name">Tshepo Molise</span>
-                        <p>Tshepo’s career as a designer began with a horrible advert - not his own! But one so foul that this young, ambitious creative decided to make the world a far prettier place. And that he has - both with his design, as well as his warm smile and easy-going attitude. Tshepo has a passion for typography and illustration and admits to being obsessed with video. On weekends he prefers a quiet picnic with his fiancé and family to wild parties.</p>
+                        <p>Tshepo’s career as a designer began with a horrible advert - not his own! But one so foul that this young, ambitious creative decided to make the world a far prettier place. And that he has - both with his design,
+                            as well as his warm smile and easy-going attitude. Tshepo has a passion for typography and illustration and admits to being obsessed with video. On weekends he prefers a quiet picnic with his fiancé and family to
+                            wild parties.</p>
                     </div>
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
-                    <img src="{{asset('profile-images/Isaac.jpg')}}" alt="">
-                    <div class="bio" id="long-one"><span class="title">Designer</span><span class="name">Isaac Phefo</span>
+                    <img src="{{asset('profile-images/kayla.jpg')}}" alt="">
+                    <div class="bio" id="long-one"><span class="title">Traffic Manager</span><span class="name">Kayla Canin</span>
                         <p>
-                            Isaac is a strategic graphic designer with a strong conceptual ability. For Isaac, design is more than a job, it’s a philosophy and a purpose. “My work is about creating something from nothing, solving problems and making life more enjoyable for people.” Isaac has worked in the industry for eight years, including a stint at a Moscow-based agency, which involved copious amounts of vodka. Isaac describes himself as “designing life one pixel at a time, hoping one day to zoom out and see the bigger picture.” He isn't on facebook and doesn't watch TV - his recipe for keeping his mind and art original.</p>
+                            Kayla is the perfect addition to the Brandsmiths team with 15 years experience in marketing and graphic design. She's responsible for managing the studio, but as a friendly and detail-orientated people-person,
+                            she'll traffic your briefs and make sure you get exactly what you wanted and more. As a mom of two girls she doesn't have much free-time but after-hours can be found exploring fine art, fashion and eating
+                            chocolate. </p>
+                    </div>
+                </div>
+                <div class="small-12 large-3 medium-6 columns" style="float:left">
+                    <img src="{{asset('profile-images/chris.jpg')}}" alt="">
+                    <div class="bio" id="long-one"><span class="title">Junior Designer</span><span class="name">Chris Sibanda</span>
+                        <p>
+                            Chris is the youngest member of our team. Born in Bulawayo, he got interested in design when creating the cover for his rap album - "The Come-up". Rapping, mixing and mastering didn't end that well, "we got
+                            booed", but opened up a whole new career and it sure beats his other options: agriculture or electronics! Chris started watching Photoshop tutorials online, spending hours honing his craft. His grit, focus
+                            and raw creative talent should take him far.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -193,7 +207,7 @@
         <div class="row">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1  class="grey">our</h1>
+                <h1 class="grey">our</h1>
             </div>
             <div class="small-6 columns">
                 <h1 class="orange">clients</h1>
@@ -278,7 +292,7 @@
         <div class="row expanded">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1  class="grey">Get in</h1>
+                <h1 class="grey">Get in</h1>
             </div>
             <div class="small-6 columns">
                 <h1 class="orange">touch</h1>
@@ -349,7 +363,7 @@
 @endsection
 @section('custom-scripts')
     <script>
-        window.sr = ScrollReveal({ mobile: false });
+        window.sr = ScrollReveal({mobile: false});
         sr.reveal('.orange', {
             easing: 'cubic-bezier(0.445, 0.05, 0.55, 0.95)',
             duration: 2100,
