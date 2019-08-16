@@ -284,7 +284,7 @@
                 <h1 class="orange">touch</h1>
             </div>
             <div class="phantom"></div>
-            <iframe src="//www.google.com/maps/embed/v1/place?q=132+Athol+St,+Highlands+North,+Johannesburg,+2192&zoom=16&key=AIzaSyAE-8UAOtqTOl_wRWL9tWM6z3on8YHLisc"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.4714896794703!2d28.094471315028784!3d-26.14876998346256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d9c6e471f13%3A0x6d8a1190da2fd18b!2s43+Durham+St%2C+Fairmount%2C+Johannesburg%2C+2192!5e0!3m2!1sen!2sza!4v1565959008451!5m2!1sen!2sza"></iframe>
             <div class="phantom-small"></div>
         </div>
         <form method="POST" action="/contact-us" id="contact_us_form">
@@ -332,7 +332,7 @@
         <div class="row small-expanded text-center">
             <div class="columns small-12 medium-4">
                 <span class="heading">Location</span>
-                <span class="body">132 Athol Road, Waverly <br> Johannesburg - South Africa </span>
+                <span class="body">43 Durham Street, Fairmount<br> Johannesburg - South Africa </span>
             </div>
             <div class="columns  small-12  medium-4">
                 <span class="heading">Phone</span>
