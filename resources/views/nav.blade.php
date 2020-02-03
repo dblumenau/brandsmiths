@@ -11,7 +11,7 @@
     <div class="top-bar-left">
         <ul class="vertical large-horizontal menu">
             <li class="menu-text">
-                <img src="{{asset('img/logo-white.png')}}" class="logo hide-for-small-only hide-for-medium-only" alt="">
+                <img src="{{asset('img/logos/LOGO.jpg')}}" class="logo hide-for-small-only hide-for-medium-only" alt="">
             </li>
         </ul>
     </div>
