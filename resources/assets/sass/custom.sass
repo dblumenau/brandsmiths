@@ -1,4 +1,8 @@
 @import settings
+#banner
+  background: url('../../../public/img/banner.png') 100% no-repeat
+  background-size: cover
+  height: 300px
 #responsive-menu > div.top-bar-right > ul
   max-width: 100%
 .top-bar
@@ -144,7 +148,12 @@ body > div.eighth > div > div > span.heading
   padding: 50px
 body > div.eighth > div.row.small-expanded.text-center
   color: #3c3c3c !important
+@media screen and (max-width: 1920px)
+  #banner
+    height: 450px
 @media screen and (max-width: 911px)
+  #banner
+    height: 300px
   .orange
     font-size: 2.3rem
   .grey
@@ -160,6 +169,8 @@ body > div.eighth > div.row.small-expanded.text-center
 body > div.seventh > form > div.row.expanded > div
   text-align: center
 @media screen and (max-width: 640px)
+  #banner
+    height: 180px
   .orange
     font-size: 1.5rem
   .grey
@@ -188,10 +199,6 @@ body > div.seventh > form > div.row.expanded > div
 @media screen and (min-width: 1440px)
   .bio
     min-height: 410px
-#banner
-  background: url('../../../public/img/banner.png') 100% no-repeat
-  background-size: cover
-  height: 300px
 .darker
   color: #4D4D4D
 body > div.title-bar > div.title-bar-right > button
