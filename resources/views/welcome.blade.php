@@ -6,7 +6,7 @@
             height: auto !important;
         }
     </style>
-    <div class="first">
+    <div class="first" id="banner">
         {{--<div class='container'>--}}
         {{--<div class='single-item'>--}}
         {{--<div><h3>1</h3></div>--}}
@@ -20,34 +20,34 @@
         <div class="row">
             <div class="phantom"></div>
             <div class="small-6 columns text-right">
-                <h1 class="grey" data-scroll-reveal="enter left and move 50px over 0.6s after 0.3s">fresh</h1>
+                <h1 class="grey darker" data-scroll-reveal="enter left and move 50px over 0.6s after 0.3s">fresh</h1>
             </div>
             <div class="small-6 columns">
-                <h1 class="orange">concepts</h1>
+                <h1 class="orange darker">concepts</h1>
             </div>
         </div>
         <div class="row">
             <div class="small-6 columns text-right">
-                <h1 class="grey">compelling</h1>
+                <h1 class="grey darker">compelling</h1>
             </div>
             <div class="small-6 columns">
-                <h1 class="orange">copy</h1>
+                <h1 class="orange darker">copy</h1>
             </div>
         </div>
         <div class="row">
             <div class="small-6 columns text-right">
-                <h1 class="grey">eye catching</h1>
+                <h1 class="grey darker">eye catching</h1>
             </div>
             <div class="small-6 columns">
-                <h1 class="orange">design</h1>
+                <h1 class="orange darker">design</h1>
             </div>
         </div>
         <div class="row">
             <div class="small-6 columns text-right">
-                <h1 class="grey">obsessive</h1>
+                <h1 class="grey darker">obsessive</h1>
             </div>
             <div class="small-6 columns">
-                <h1 class="orange">service</h1>
+                <h1 class="orange darker">service</h1>
             </div>
         </div>
         <div class="phantom"></div>
@@ -123,7 +123,9 @@
             <div class="row collapse portfolio">
                 @foreach($portfolios as $portfolio)
                     <div class="columns small-3">
-                        <a id="modal-link" href="modal/{{$portfolio->id}}" data-featherlight="ajax"><img class="portfolio-thumbnail" src="{{asset("$portfolio->thumbnail")}}" class="" alt="" id="portfolio_item_{{$portfolio->id}}"></a>
+                        <a id="modal-link" href="modal/{{$portfolio->id}}" data-featherlight="ajax"><img
+                                    class="portfolio-thumbnail" src="{{asset("$portfolio->thumbnail")}}" class="" alt=""
+                                    id="portfolio_item_{{$portfolio->id}}"></a>
                     </div>
                 @endforeach
             </div>
@@ -173,8 +175,12 @@
                 <div class="small-12 large-3 medium-6 columns">
                     <img src="{{asset('profile-images/tshepo.jpg')}}" alt="">
                     <div class="bio"><span class="title">Designer</span><span class="name">Tshepo Molise</span>
-                        <p>Tshepo’s career as a designer began with a horrible advert - not his own! But one so foul that this young, ambitious creative decided to make the world a far prettier place. And that he has - both with his design,
-                            as well as his warm smile and easy-going attitude. Tshepo has a passion for typography and illustration and admits to being obsessed with video. On weekends he prefers a quiet picnic with his fiancé and family to
+                        <p>Tshepo’s career as a designer began with a horrible advert - not his own! But one so foul
+                            that this young, ambitious creative decided to make the world a far prettier place. And that
+                            he has - both with his design,
+                            as well as his warm smile and easy-going attitude. Tshepo has a passion for typography and
+                            illustration and admits to being obsessed with video. On weekends he prefers a quiet picnic
+                            with his fiancé and family to
                             wild parties.</p>
                     </div>
                 </div>
@@ -182,8 +188,12 @@
                     <img src="{{asset('profile-images/kayla.jpg')}}" alt="">
                     <div class="bio" id="long-one"><span class="title">Traffic Manager</span><span class="name">Kayla Canin</span>
                         <p>
-                            Kayla is the perfect addition to the Brandsmiths team with 15 years experience in marketing and graphic design. She's responsible for managing the studio, but as a friendly and detail-orientated people-person,
-                            she'll traffic your briefs and make sure you get exactly what you wanted and more. As a mom of two girls she doesn't have much free-time but after-hours can be found exploring fine art, fashion and eating
+                            Kayla is the perfect addition to the Brandsmiths team with 15 years experience in marketing
+                            and graphic design. She's responsible for managing the studio, but as a friendly and
+                            detail-orientated people-person,
+                            she'll traffic your briefs and make sure you get exactly what you wanted and more. As a mom
+                            of two girls she doesn't have much free-time but after-hours can be found exploring fine
+                            art, fashion and eating
                             chocolate. </p>
                     </div>
                 </div>
@@ -191,8 +201,12 @@
                     <img src="{{asset('profile-images/chris.jpg')}}" alt="">
                     <div class="bio" id="long-one"><span class="title">Junior Designer</span><span class="name">Chris Sibanda</span>
                         <p>
-                            Chris is the youngest member of our team. Born in Bulawayo, he got interested in design when creating the cover for his rap album - "The Come-up". Rapping, mixing and mastering didn't end that well, "we got
-                            booed", but opened up a whole new career and it sure beats his other options: agriculture or electronics! Chris started watching Photoshop tutorials online, spending hours honing his craft. His grit, focus
+                            Chris is the youngest member of our team. Born in Bulawayo, he got interested in design when
+                            creating the cover for his rap album - "The Come-up". Rapping, mixing and mastering didn't
+                            end that well, "we got
+                            booed", but opened up a whole new career and it sure beats his other options: agriculture or
+                            electronics! Chris started watching Photoshop tutorials online, spending hours honing his
+                            craft. His grit, focus
                             and raw creative talent should take him far.
                         </p>
                     </div>
@@ -315,17 +329,20 @@
                 </a>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" name="name" placeholder="YOUR NAME" data-parsley-error-message="Please enter a name" required>
+                        <input type="text" name="name" placeholder="YOUR NAME"
+                               data-parsley-error-message="Please enter a name" required>
                     </label>
                 </div>
                 <div class="columns small-4">
                     <label>
-                        <input name="email" placeholder="YOUR EMAIL" type="email" data-parsley-type="email" data-parsley-error-message="Please enter a valid email" required>
+                        <input name="email" placeholder="YOUR EMAIL" type="email" data-parsley-type="email"
+                               data-parsley-error-message="Please enter a valid email" required>
                     </label>
                 </div>
                 <div class="columns small-4">
                     <label>
-                        <input type="text" name="phone" placeholder="YOUR PHONE" data-parsley-error-message="Please enter a phone number" required>
+                        <input type="text" name="phone" placeholder="YOUR PHONE"
+                               data-parsley-error-message="Please enter a phone number" required>
                     </label>
                 </div>
                 <div class="columns small-12">
@@ -355,7 +372,8 @@
             </div>
             <div class="columns  small-12 medium-4">
                 <span class="heading">Email</span>
-                <span class="body"><a class="3c3c3c" href="mailto:adam@brandsmiths.co.za">adam@brandsmiths.co.za</a><br><a href="mailto:paula@brandsmiths.co.za">paula@brandsmiths.co.za</a></span>
+                <span class="body"><a class="3c3c3c" href="mailto:adam@brandsmiths.co.za">adam@brandsmiths.co.za</a><br><a
+                            href="mailto:paula@brandsmiths.co.za">paula@brandsmiths.co.za</a></span>
             </div>
         </div>
         <div class="phantom-small"></div>

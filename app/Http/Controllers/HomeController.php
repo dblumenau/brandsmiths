@@ -34,7 +34,8 @@ class HomeController extends Controller
 	
 	public function getHomePage(Portfolio $portfolio)
 	{
-		$portfolios = $portfolio->where('active', 1)->orderBy('updated_at', 'desc')->get();
+//		$portfolios = $portfolio->where('active', 1)->orderBy('updated_at', 'desc')->get();
+		$portfolios = collect();
 		return view('welcome', compact('portfolios'));
 	}
 	

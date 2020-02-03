@@ -1,6 +1,6 @@
 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="large">
     <div class="title-bar-left">
-        <img src="{{asset('img/logo-white.png')}}" class="logo" alt="">
+        <img src="{{asset('img/logos/LOGO.jpg')}}" class="logo" alt="">
     </div>
     <div class="title-bar-right">
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
