@@ -198,6 +198,21 @@
                     </div>
                 </div>
                 <div class="small-12 large-3 medium-6 columns" style="float:left">
+                    <img src="{{asset('profile-images/megan.jpg')}}" alt="">
+                    <div class="bio" id="long-one"><span class="title">Junior Designer</span><span class="name">Megan Smanjak-Downer</span>
+                        <p>
+                            Megan has always had a flair for art and studied it in high school. Since graduating from
+                            the Greenside Design Centre, she has invested her heart and soul into perfecting her craft
+                            and learning new skills in graphic design. "I love teaching myself new things, and I'm
+                            obsessed with efficiency." Megan is very close to her large and extended family and is
+                            proudly Yugoslavian, right down to the beautiful tattoos adorning her hands and fingers,
+                            which reflect her family's faith and heritage. In her spare time, Megan can either be found
+                            running or cycling out in nature, or working on content for her own design brand, the
+                            Wondery.
+                        </p>
+                    </div>
+                </div>
+                <div class="small-12 large-3 medium-6 columns" style="float:left">
                     <img src="{{asset('profile-images/chris.jpg')}}" alt="">
                     <div class="bio" id="long-one"><span class="title">Junior Designer</span><span class="name">Chris Sibanda</span>
                         <p>
