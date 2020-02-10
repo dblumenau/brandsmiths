@@ -17,7 +17,7 @@ mix.combine([
     'node_modules/jquery/dist/jquery.min.js',
     'node_modules/foundation-sites/dist/js/foundation.min.js',
     // 'node_modules/dropzone/dist/dropzone.js',
-    'node_modules/scrollreveal/dist/scrollreveal.js',
+    // 'node_modules/scrollreveal/dist/scrollreveal.js',
     'node_modules/slick-carousel/slick/slick.js',
     'node_modules/slick-lightbox/dist/slick-lightbox.js',
 ], 'public/js/vendor.js');

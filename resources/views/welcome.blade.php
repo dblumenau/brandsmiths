@@ -408,6 +408,7 @@
     </div>
 @endsection
 @section('custom-scripts')
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script>
         window.sr = ScrollReveal({mobile: false});
         sr.reveal('.orange', {
