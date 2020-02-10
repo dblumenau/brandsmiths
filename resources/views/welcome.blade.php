@@ -51,10 +51,6 @@
             </div>
         </div>
         <div class="phantom"></div>
-        <div class="row text-center">
-            <div class="columns small-offset-12 "></div>
-            <a href="#who-we-are"><img class="small-centered" src="{{asset('img/arrowdown.png')}}" alt=""></a>
-        </div>
     </div>
     <div class="second" id="who-we-are">
         <div class="row">
@@ -131,11 +127,6 @@
             </div>
         </div>
         <div class="phantom-small"></div>
-        <div class="row text-center">
-            <div class="columns small-offset-12 "></div>
-            <div class="arrow-text">expand</div>
-            <a href="#"><img class="small-centered" src="{{asset('img/arrowdown.png')}}" alt=""></a>
-        </div>
         <div class="phantom"></div>
     </div>
     </div>
@@ -199,7 +190,7 @@
                 </div>
                 <div class="small-12 large-3 medium-6 columns" style="float:left">
                     <img src="{{asset('profile-images/megan.jpg')}}" alt="">
-                    <div class="bio" id="long-one"><span class="title">Junior Designer</span><span class="name">Megan Smanjak-Downer</span>
+                    <div class="bio" id="long-one"><span class="title">Designer</span><span class="name">Megan Smanjak-Downer</span>
                         <p>
                             Megan has always had a flair for art and studied it in high school. Since graduating from
                             the Greenside Design Centre, she has invested her heart and soul into perfecting her craft
@@ -275,6 +266,28 @@
                     </div>
                     <div class="small-4 columns">
                         <img src="{{secure_asset('/img/new-logos/UFO.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/logos/atlas.jpg')}}" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/logos/credit.jpg')}}" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/logos/delish.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/logos/encore.jpg')}}" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/logos/global.jpg')}}" alt="">
+                    </div>
+                    <div class="small-4 columns">
+                        <img src="{{secure_asset('/img/logos/sodastream.jpg')}}" alt="">
                     </div>
                 </div>
             </div>
