@@ -177,7 +177,7 @@
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
                     <img src="{{asset('profile-images/ronit.jpg')}}" alt="">
-                    <div class="bio" id="long-one"><span class="title">Traffic Manager</span><span class="name">Kayla Canin</span>
+                    <div class="bio" id="long-one"><span class="title">Traffic Manager</span><span class="name">Ronit Mograbi</span>
                         <p>The newest member of our team is blue-eyed dynamo Ronit Mograbi who brings 20 years of agency and marketing experience to Brandsmiths. With roots in big agencies like Saachi & Saachi, Hunt Lascaris, Jupiter Drawing Room and Black Khaki, Ronit has worked on the client service side of major brands but she also spent several years in marketing. Combining both perspectives allows Ronit to think big and add value to our clients while retaining a meticulous attention to detail on every brief. In her free time, Ronit loves exploring museums, wine tasting and travel. </p>
                     </div>
                 </div>
