@@ -6,8 +6,8 @@
  */
 require('./bootstrap');
 
-const long_one = document.getElementById('long-one').offsetHeight;
-let bios = document.getElementsByClassName('bio');
-for (bio of bios) {
-    bio.setAttribute('style', 'min-height:' + long_one + 'px');
-}
+// const long_one = document.getElementById('long-one').offsetHeight;
+// let bios = document.getElementsByClassName('bio');
+// for (bio of bios) {
+//     bio.setAttribute('style', 'min-height:' + long_one + 'px');
+// }

@@ -177,13 +177,13 @@
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
                     <img src="{{asset('profile-images/ronit.jpg')}}" alt="">
-                    <div class="bio" id="long-one"><span class="title">Traffic Manager</span><span class="name">Ronit Mograbi</span>
+                    <div class="bio" ><span class="title">Traffic Manager</span><span class="name">Ronit Mograbi</span>
                         <p>The newest member of our team is blue-eyed dynamo Ronit Mograbi who brings 20 years of agency and marketing experience to Brandsmiths. With roots in big agencies like Saachi & Saachi, Hunt Lascaris, Jupiter Drawing Room and Black Khaki, Ronit has worked on the client service side of major brands but she also spent several years in marketing. Combining both perspectives allows Ronit to think big and add value to our clients while retaining a meticulous attention to detail on every brief. In her free time, Ronit loves exploring museums, wine tasting and travel. </p>
                     </div>
                 </div>
-                <div class="small-12 large-3 medium-6 columns" style="float:left">
+                <div class="small-12 large-3 small-pull-6 large-pull-6 medium-6 columns">
                     <img src="{{asset('profile-images/megan.jpg')}}" alt="">
-                    <div class="bio" id="long-one"><span class="title">Designer</span><span class="name">Megan Smanjak-Downer</span>
+                    <div class="bio" ><span class="title">Designer</span><span class="name">Megan Smanjak-Downer</span>
                         <p>
                             Megan has always had a flair for art and studied it in high school. Since graduating from
                             the Greenside Design Centre, she has invested her heart and soul into perfecting her craft
@@ -196,9 +196,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="small-12 large-3 medium-6 columns" style="float:left">
+                <div class="small-12 large-3 large-pull-6  medium-6 columns">
                     <img src="{{asset('profile-images/chris.jpg')}}" alt="">
-                    <div class="bio" id="long-one"><span class="title">Junior Designer</span><span class="name">Chris Sibanda</span>
+                    <div class="bio" ><span class="title">Junior Designer</span><span class="name">Chris Sibanda</span>
                         <p>
                             Chris is the youngest member of our team. Born in Bulawayo, he got interested in design when
                             creating the cover for his rap album - "The Come-up". Rapping, mixing and mastering didn't
