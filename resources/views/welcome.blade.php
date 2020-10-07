@@ -176,16 +176,9 @@
                     </div>
                 </div>
                 <div class="small-12 large-3 medium-6 columns">
-                    <img src="{{asset('profile-images/kayla.jpg')}}" alt="">
+                    <img src="{{asset('profile-images/ronit.jpg')}}" alt="">
                     <div class="bio" id="long-one"><span class="title">Traffic Manager</span><span class="name">Kayla Canin</span>
-                        <p>
-                            Kayla is the perfect addition to the Brandsmiths team with 15 years experience in marketing
-                            and graphic design. She's responsible for managing the studio, but as a friendly and
-                            detail-orientated people-person,
-                            she'll traffic your briefs and make sure you get exactly what you wanted and more. As a mom
-                            of two girls she doesn't have much free-time but after-hours can be found exploring fine
-                            art, fashion and eating
-                            chocolate. </p>
+                        <p>The newest member of our team is blue-eyed dynamo Ronit Mograbi who brings 20 years of agency and marketing experience to Brandsmiths. With roots in big agencies like Saachi & Saachi, Hunt Lascaris, Jupiter Drawing Room and Black Khaki, Ronit has worked on the client service side of major brands but she also spent several years in marketing. Combining both perspectives allows Ronit to think big and add value to our clients while retaining a meticulous attention to detail on every brief. In her free time, Ronit loves exploring museums, wine tasting and travel. </p>
                     </div>
                 </div>
                 <div class="small-12 large-3 medium-6 columns" style="float:left">
